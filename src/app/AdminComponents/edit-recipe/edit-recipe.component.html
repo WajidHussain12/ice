@@ -16,10 +16,12 @@
 
 
       <form [formGroup]="recipeForm" (ngSubmit)="save()">
-        <div class="" style="box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.463);padding: 15px; border-radius: 10px;">
+        <div class="editform"
+          style="box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.463);padding: 15px; border-radius: 10px;">
 
           <div class="mb-4">
-            <h1 style="border-radius: 8px; font-weight: bold;">Add <span style="color:#6499E9;">Recipe</span></h1>
+            <h1 style="border-radius: 8px; font-weight: bold;" class="text-warning">Edit <span
+                style="color:black">Recipe</span></h1>
           </div>
           <div class="d-flex">
 
@@ -91,7 +93,8 @@
                   <div *ngIf="recipeForm.get('Instructions')?.hasError('required')" style="color: red;">Instructions
                     Required
                   </div>
-                  <div *ngIf="recipeForm.get('Instructions')?.hasError('minlength')" style="color: red;">Instructions must
+                  <div *ngIf="recipeForm.get('Instructions')?.hasError('minlength')" style="color: red;">Instructions
+                    must
                     be
                     at least 30 characters</div>
                 </div>
@@ -125,23 +128,25 @@
                   </div>
                 </div>
               </div>
-
-
+<!--
+              <div class="mb-3">
+                <label class="form-label">Uploaded New image</label>
+                <input type="file" class="form-control" formControlName="newimage">
+              </div> -->
 
               <div class="mb-3">
-                <label class="form-label">image</label>
-                <input type="file" class="form-control" formControlName="image" (change)="onFileChange($event)">
-                <div
-                  *ngIf="recipeForm.get('image')?.invalid && (recipeForm.get('image')?.dirty || recipeForm.get('image')?.touched)">
-                  <div *ngIf="recipeForm.get('image')?.hasError('required')" style="color: red;">
-                    Image Required
-                  </div>
-                </div>
+                <label class="form-label">Upload New image</label>
+                <input type="file" class="form-control" formControlName="image" (change)="onFileSelected($event)">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Uploaded image</label>
+                <input class="form-control" type="text" value={{ResponseDatabaseImgae}} aria-label="Disabled input example" disabled readonly>
               </div>
 
               <div class="mb-3 mt-4">
                 <button type="submit" class="btn btn-primary" [disabled]="recipeForm.invalid">Submit</button>
               </div>
+
 
 
             </div>
@@ -152,6 +157,7 @@
 
       </form>
 
+      <!-- <a  class="btn btn-danger" (click)="setImage()">Image</a> -->
     </div>
   </div>
 </div>

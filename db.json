@@ -222,43 +222,30 @@
   ],
   "Recipes": [
     {
-      "id": 1,
-      "Author_ID": 1,
-      "Recipe_Name": "Vanilla",
-      "Author_Name": "Admin",
-      "Ingredients": "1) Heavy Cream: 2 cups 2) Whole Milk: 1 cup 4) Granulated Sugar: 3/4 cup 4) Vanilla Extract: 1 tablespoon",
-      "Instructions": "1) In a mixing bowl, combine the heavy cream and whole milk. 2) Add the granulated sugar to the mixture and stir until the sugar is completely dissolved. 3) Add the vanilla extract and mix well. 4) Pour the mixture into an ice cream maker. 5) Follow the manufacturer's instructions for your ice cream maker to churn the mixture until it reaches a soft-serve consistency. 6) Transfer the churned ice cream to a lidded container and freeze for at least 4 hours or until it reaches your desired firmness. This basic recipe forms the foundation for vanilla ice cream, but there are many variations and additional ingredients you can incorporate, such as egg yolks for a custard-style ice cream, or vanilla bean for a more intense vanilla flavor",
-      "Cooking_Time": "takes around 20 to 30 minutes",
-      "Calories": "Around 300-350 calories",
       "Rating": "4.5",
-      "Status": "Available",
-      "image": "../../../assets/images/recipesImages/Vanilla_IceCream.webp"
-    },
-    {
-      "id": 2,
-      "Author_ID": 1,
       "Recipe_Name": "Chocolate",
-      "Author_Name": "Admin",
+      "Cooking_Time": "takes around 20 to 30 minutes",
       "Ingredients": "1) 2 cups heavy cream 2) 1 cup whole milk 3) 3/4 cup granulated sugar 4) 1/2 cup cocoa powder 5) 1 tablespoon pure vanilla extract",
       "Instructions": "Whisk together heavy cream, whole milk, sugar, cocoa powder, and vanilla extract until smooth. Pour the mixture into an ice cream maker and churn according to the manufacturer's instructions. Transfer the churned ice cream to an airtight container and freeze for at least 4 hours.",
-      "Cooking_Time": "takes around 20 to 30 minutes",
       "Calories": "Around 200-250 calories",
-      "Rating": "4",
+      "image": "../../../assets/images/recipesImages/Chocoloate.jpg",
+      "Author_ID": 1,
+      "Author_Name": "Admin",
       "Status": "Available",
-      "image": "../../../assets/images/recipesImages/Chocoloate.jpg"
+      "id": 2
     },
     {
-      "id": 3,
-      "Author_ID": 1,
-      "Recipe_Name": "Strawberry",
-      "Author_Name": "Admin",
-      "Ingredients": "1) 2 cups fresh strawberries, hulled and chopped 2) 1 cup heavy cream 3) 1 cup whole milk 4) 3/4 cup granulated sugar 5) 1 tablespoon lemon juice 6) 1 teaspoon vanilla extract",
-      "Instructions": "Puree strawberries in a blender or food processor. In a bowl, mix strawberry puree, heavy cream, whole milk, sugar, lemon juice, and vanilla extract. Pour the mixture into an ice cream maker and churn according to the manufacturer's instructions. Transfer the churned ice cream to an airtight container and freeze for at least 4 hours.",
-      "Cooking_Time": "takes around 40 to 30 minutes",
-      "Calories": "Around 200-250 calories",
       "Rating": "4.5",
+      "Recipe_Name": "Strawberry",
+      "Cooking_Time": "takes around 40 to 30 minutes",
+      "Ingredients": "1) 2 cups fresh strawberries, hulled and chopped 2) 1 cup heavy cream 3) 1 cup whole milk 4) 3/4 cup granulated sugar 5) 1 tablespoon lemon juice 6) 1 teaspoon vanilla extract ",
+      "Instructions": "Puree strawberries in a blender or food processor. In a bowl, mix strawberry puree, heavy cream, whole milk, sugar, lemon juice, and vanilla extract. Pour the mixture into an ice cream maker and churn according to the manufacturer's instructions. Transfer the churned ice cream to an airtight container and freeze for at least 4 hours.",
+      "Calories": "Around 200-250 calories",
+      "image": "../../../assets/images/recipesImages/Strawberry.webp",
+      "Author_ID": 1,
+      "Author_Name": "Admin",
       "Status": "Available",
-      "image": "../../../assets/images/recipesImages/Strawberry.webp"
+      "id": 3
     },
     {
       "id": 4,
@@ -326,30 +313,30 @@
       "image": "../../../assets/images/recipesImages/Caramel Swirl.webp"
     },
     {
-      "id": 9,
-      "Author_ID": 1,
+      "Rating": "4",
       "Recipe_Name": "Maple Walnut",
-      "Author_Name": "Admin",
-      "Ingredients": "1) 2 cups heavy cream 2) 1 cup whole milk 3) 3/4 cup pure maple syrup 4) 1/2 cup chopped walnuts, toasted 5) 1 teaspoon vanilla extract",
-      "Instructions": "In a mixing bowl, whisk together heavy cream, whole milk, pure maple syrup, and vanilla extract until well combined.Toast the chopped walnuts in a dry skillet over medium heat until they are fragrant. Allow them to cool.Add the toasted walnuts to the ice cream mixture and mix well.Pour the mixture into an ice cream maker and churn according to the manufacturer's instructions.Once the ice cream reaches a soft-serve consistency, transfer it to an airtight container.Freeze the ice cream for at least 4 hours or until it reaches your desired firmness.",
       "Cooking_Time": "takes around 20 to 25 minutes",
+      "Ingredients": "1) 2 cups heavy cream 2) 1 cup whole milk 3) 3/4 cup pure maple syrup 4) 1/2 cup chopped walnuts, toasted 5) 1 teaspoon vanilla extract",
+      "Instruction": "In a mixing bowl, whisk together heavy cream, whole milk, pure maple syrup, and vanilla extract until well combined.Toast the chopped walnuts in a dry skillet over medium heat until they are fragrant. Allow them to cool.Add the toasted walnuts to the ice cream mixture and mix well.Pour the mixture into an ice cream maker and churn according to the manufacturer's instructions.Once the ice cream reaches a soft-serve consistency, transfer it to an airtight container.Freeze the ice cream for at least 4 hours or until it reaches your desired firmness.",
       "Calories": "Around 220-260 calories",
-      "Rating": "5",
+      "Author_ID": 1,
+      "Author_Name": "Admin",
       "Status": "Available",
-      "image": "../../../assets/images/recipesImages/Maple Walnut.webp"
+      "image": "../../../assets/images/recipesImages/Maple Walnut.webp",
+      "id": 9
     },
     {
-      "id": 10,
-      "Author_ID": 1,
+      "Rating": "4.5",
       "Recipe_Name": "Salted Caramel",
-      "Author_Name": "Admin",
+      "Cooking_Time": "takes around 20 to 30 minutes",
       "Ingredients": "1) 2 cups heavy cream 2) 1 cup whole milk 3) 3/4 cup granulated sugar 4) 1/2 cup caramel sauce (store-bought or homemade) 5) 1 teaspoon vanilla extract 6) 1/2 teaspoon sea salt (adjust to taste)",
       "Instructions": "In a mixing bowl, whisk together heavy cream, whole milk, sugar, and vanilla extract until the sugar is fully dissolved.Pour the mixture into an ice cream maker and churn according to the manufacturer's instructions.While the ice cream is churning, warm the caramel sauce slightly to make it more pourable.During the last few minutes of churning, drizzle the warm caramel sauce into the ice cream, and add sea salt. Allow it to create swirls.Taste the ice cream and adjust the salt level to your liking.Once the ice cream reaches a soft-serve consistency, transfer it to an airtight container.Freeze the ice cream for at least 4 hours or until it reaches your desired firmness.",
-      "Cooking_Time": "takes around 20 to 30 minutes",
       "Calories": "Around 220-260 calories",
-      "Rating": "5",
+      "image": "../../../assets/images/recipesImages/Salted Caramel.jpg",
+      "Author_ID": 1,
+      "Author_Name": "Admin",
       "Status": "Available",
-      "image": "../../../assets/images/recipesImages/Salted Caramel.jpg"
+      "id": 10
     }
   ],
   "flavours": [
@@ -407,8 +394,7 @@
       "Rating": "4.5",
       "status": "Available"
     }
-  ]
-  ,
+  ],
   "usersRecipes": [
     {
       "id": 1,
@@ -510,6 +496,8 @@
       "image": "../../../assets/images/recipesImages/Maple Walnut.webp"
     },
     {
+      "Rating": "4.5",
+
       "id": 10,
       "Author_ID": 10,
       "Recipe_Name": "Salted Caramel",

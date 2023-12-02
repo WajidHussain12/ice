@@ -60,6 +60,9 @@ export class AdminService {
   getrecipesData() {
     return this.request.get(this.recipesApi);
   }
+
+  // This Method Use For Show More Button On Recipe Cards
+
   getRecipeInstructionData(id: any) {
     return this.request.get(`${this.recipesApi}/${id}`)
   }
@@ -73,6 +76,14 @@ export class AdminService {
 
   addRecipe(data: any) {
     return this.request.post(this.recipesApi, data)
+  }
+
+  getEditRecipeData(id: number) {
+    return this.request.get(`${this.recipesApi}/${id}`)
+  }
+
+  updateRecipe(id: any, data: any) {
+    return this.request.put(`${this.recipesApi}/${id}`, data)
   }
 
   // User Recipes Methods
@@ -89,6 +100,7 @@ export class AdminService {
   DeleteuserRecipe(Did: number) {
     return this.request.delete(`${this.usersRecipesApi}/${Did}`);
   }
+
 
 
   // Flavour Methods

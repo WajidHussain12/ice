@@ -63,7 +63,7 @@
                         <li class="list-group-item"><strong>Recipe ID:</strong> {{i.id}}</li>
                       </ul>
                       <div class="card-body" style="display: flex; justify-content: center;">
-                        <a class="btn btn-primary" style="margin-right: 10px;">Edit Recipe</a>
+                        <a routerLink="/admin/editrecipe/{{i.id}}" class="btn btn-primary" style="margin-right: 10px;">Edit Recipe</a>
                         <a class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
                           (click)="getDeleteId(i.id)">Delete Recipe</a>
                       </div>

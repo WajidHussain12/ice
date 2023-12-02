@@ -18,23 +18,24 @@ export class AddRecipeComponent {
 
   recipeForm = this.formBuilder.group({
     Recipe_Name: ['', [Validators.required, Validators.minLength(5), Validators.maxLength(30), Validators.pattern('[a-zA-Z ]*')]],
-    Cooking_Time: ['', [Validators.required, Validators.minLength(6), Validators.maxLength(40), Validators.pattern('[a-zA-Z0-9]*')]],
+    Cooking_Time: ['', [Validators.required, Validators.minLength(6), Validators.maxLength(40), Validators.pattern('[a-zA-Z0-9 ]*')]],
     Ingredients: ['', [Validators.required, Validators.minLength(20)]],
-    Instruction: ['', [Validators.required, Validators.minLength(30)]],
-    Calories: ['', [Validators.required, Validators.minLength(4), Validators.maxLength(40), Validators.pattern('[a-zA-Z ]*')]],
+    Instructions: ['', [Validators.required, Validators.minLength(30)]],
+    Calories: ['', [Validators.required, Validators.minLength(4), Validators.maxLength(40), Validators.pattern('[a-zA-Z0-9 -]*')]],
     image: ['', [Validators.required]],
 
     Author_ID: ['1'],
     Author_Name: ['Admin'],
-    Status: ['Available']
+    Status: ['Available'],
+    Rating: ['0']
 
   });
 
   onFileChange(event: any) {
     const file = event.target.files[0];
     // this.recipeForm.get('image').setValue(file);
-}
-// 
+  }
+  //
 
   save() {
     var formData = this.recipeForm.value

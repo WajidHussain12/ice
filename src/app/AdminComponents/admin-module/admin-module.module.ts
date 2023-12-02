@@ -30,6 +30,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { ImageCropperModule } from 'ngx-image-cropper';
 import { ReactiveFormsModule } from '@angular/forms';
 import { EditUserComponent } from '../edit-user/edit-user.component';
+import { EditRecipeComponent } from '../edit-recipe/edit-recipe.component';
 
 @NgModule({
   imports: [
@@ -61,7 +62,8 @@ console.warn("admin Module Loaded")
     UsersComponent,
     UsersRecipesComponent,
     AdminLoginComponent,
-    EditUserComponent
+    EditUserComponent,
+    EditRecipeComponent
   ],
   imports: [
     CommonModule,

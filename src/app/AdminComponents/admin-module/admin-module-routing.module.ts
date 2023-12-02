@@ -13,6 +13,7 @@ import { AddFlavourComponent } from '../add-flavour/add-flavour.component';
 import { AddBookComponent } from '../add-book/add-book.component';
 import { EditUserComponent } from '../edit-user/edit-user.component';
 import { SelectedRecipesComponent } from '../selected-recipes/selected-recipes.component';
+import { EditRecipeComponent } from '../edit-recipe/edit-recipe.component';
 
 const routes: Routes = [
   { path: "dashboard", component: DashboardComponent },
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: "addbook", component: AddBookComponent },
   // EditRoutes
   { path: "edituser/:id", component: EditUserComponent },
+  { path: "editrecipe/:id", component: EditRecipeComponent },
 ];
 
 @NgModule({
